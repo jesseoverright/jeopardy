@@ -1,0 +1,19 @@
+{
+  "name": "jeopardy",
+  "version": "1.0.0",
+  "description": "A Jeopardy board",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t reactify src/Main.jsx -o dist/js/bundle.js",
+    "start": "node index.js"
+  },
+  "author": "Jesse Overright",
+  "dependencies": {
+    "node-static": "^0.7.7",
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "reactify": "^1.1.1"
+  }
+}
